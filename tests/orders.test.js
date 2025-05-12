@@ -45,6 +45,7 @@ describe('Orders Module', () => {
       expect(editOrder).toBeDefined();
       expect(editOrder.status).toBe(change.status);
     });
+    
   });
 
 });
